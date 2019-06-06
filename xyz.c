@@ -10,10 +10,10 @@ void getinput(int *c,int *d)
           *d=b;
 
 }
-int  add(int *a,int *b)
+int  add(int a,int b)
 {
 		int c;
-        c=(*a)+(*b);
+        c=a+b;
 
 	return c;
 
@@ -27,7 +27,7 @@ int main()
 {
 		int c=0,d=0,e=0;
    getinput(&c,&d);
-   e=add(&c,&d);
+   e=add(c,d);
   output(e);
 return 0;
 
