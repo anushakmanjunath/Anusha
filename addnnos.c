@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 
 
@@ -30,13 +29,14 @@ void output(int c)
 
 int main()
 {
-		int n,
+		int n;
     int e;
-    int a[n];
+
    printf("Enter the value of N:");
    scanf("%d",&n);
-   getinput(a[],n);
-   e=add(a[],n)
+    int a[n];
+   getinput(a[n],n);
+   e=add(a[n],n);
    output(e);
   return 0;
 
