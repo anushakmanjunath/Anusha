@@ -1,12 +1,14 @@
 #include<stdio.h>
-#include<conio.h>
 
-void getinput()
+
+void getinput(int c,int d)
 {
 	int a,b;
-	Printf("enter 2 nos");
+	printf("enter 2 nos");
 	scanf("%d%d",&a,&b);
-	add(a,b)
+c=a;
+d=b
+	add(c,d)
 }
 int  add(int a,int b)
 {
@@ -16,12 +18,14 @@ int  add(int a,int b)
 }
 void output(int c)
 {
-    printf("c="+c);	
+    printf("c= %d");	
 }
 
 int main()
 {
-   getinput();
+		int c,d;
+   getinput(c,d);
+   add(c,d);
 return 0;
 
 }
